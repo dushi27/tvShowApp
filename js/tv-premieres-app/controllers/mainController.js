@@ -1,5 +1,5 @@
 app.controller("mainController", function($scope, $http){
-    $scope.apiKey = "[YOUR API KEY]";
+    $scope.apiKey = "[API KEY]";
     $scope.results = [];
     $scope.init = function() {
         //API requires a start date
